@@ -1,0 +1,27 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ChushkaUser> SignInManager
+@inject UserManager<ChushkaUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <form asp-controller="Account" asp-action="Logout" method="post" class="navbar right">
+        <ul class="nav navbar-nav right">
+            <li class="nav-item">
+                <a asp-controller="Account" asp-action="Logout" id="@UserManager.GetUserId(User)" class="nav-link">Logout</a>
+            </li>
+        </ul>
+    </form>
+}
+else
+{
+    <form asp-controller="Account" asp-action="Logout" method="post" class="navbar left">
+        <ul class="nav navbar-nav left">
+            <li class="nav-item">
+                <a asp-controller="Account" asp-action="Login" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+                <a asp-controller="Account" asp-action="Register" class="nav-link">Register</a>
+            </li>
+        </ul>
+    </form>
+}

@@ -1,0 +1,50 @@
+﻿@model CHUSHKA.Web.ViewModels.ProductViewModel
+@{
+    ViewData["Title"] = "Create Product";
+}
+<main class="mt-3 mb-5">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <hr class="hr-2 bg-dark" />
+    <form asp-controller="User" asp-action="ProductCreate" class="mx-auto half-width" method="post">
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Name...">
+        </div>
+        <div class="form-group">
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" type="number" min="0" value="0" step="0.01"class="form-control" placeholder="Price...">
+        </div>
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control" rows="4" placeholder="Description..."></textarea>
+        </div>
+        <h4 class="text-center">Product Type</h4>
+        <hr class="hr-2 bg-dark half-width mt-4" />
+        <div class="mt-4 d-flex justify-content-around">
+            <div class="form-check form-check-inline">
+                <input asp-for="Type" class="form-check-input" type="radio" name="Type" id="1" value="1">
+                <label asp-for="Type" class="form-check-label" for="1">Food</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="Type" class="form-check-input" type="radio" name="Type" id="2" value="2">
+                <label asp-for="Type" class="form-check-label" for="2">Domestic</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="Type" class="form-check-input" type="radio" name="Type" id="3" value="3">
+                <label asp-for="Type" class="form-check-label" for="3">Health</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="Type" class="form-check-input" type="radio" name="Type" id="4" value="4">
+                <label asp-for="Type" class="form-check-label" for="4">Cosmetic</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="Type" class="form-check-input" type="radio" name="Type" id="5" value="5">
+                <label asp-for="Type" class="form-check-label" for="5">Other</label>
+            </div>
+        </div>
+        <hr class="hr-2 bg-dark half-width mt-4" />
+        <div class="mt-2 d-flex justify-content-center">
+            <button type="submit" class="btn chushka-bg-color">Create</button>
+        </div>
+    </form>
+</main>

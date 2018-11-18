@@ -1,0 +1,14 @@
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Data.deps.json
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Data.dll
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.csprojAssemblyReference.cache
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.csproj.CoreCompileInputs.cache
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.AssemblyInfoInputs.cache
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.AssemblyInfo.cs
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.csproj.CopyComplete
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Data.pdb
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.dll
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\obj\Debug\netcoreapp2.1\CHUSHKA.Data.pdb
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Models.dll
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Models.pdb
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Data.runtimeconfig.json
+C:\Users\genad\OneDrive\Работен плот\ASP.NET Core\CHUSHKA.Web\CHUSHKA.Data\bin\Debug\netcoreapp2.1\CHUSHKA.Data.runtimeconfig.dev.json
