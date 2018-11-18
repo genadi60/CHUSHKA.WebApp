@@ -1,6 +1,8 @@
 ﻿@model List<CHUSHKA.Web.ViewModels.ActionViewModel>
 @foreach (var action in Model)
 {
-    <li class="nav-item"><a asp-controller="@action.Controller" asp-action="@action.Action" class="nav-link">@action.Title</a></li>
+    <li class="nav-item">
+        <a asp-controller="@action.Controller" asp-action="@action.Action" class="nav-link">@action.Title</a>
+    </li>
 }
 

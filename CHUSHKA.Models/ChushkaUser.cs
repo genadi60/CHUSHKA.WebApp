@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Identity;
-
-namespace CHUSHKA.Models
+﻿namespace CHUSHKA.Models
 {
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.Identity;
+
     public class ChushkaUser : IdentityUser
     {
         public string FullName { get; set; }

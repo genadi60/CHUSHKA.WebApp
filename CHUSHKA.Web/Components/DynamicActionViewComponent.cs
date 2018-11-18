@@ -1,14 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using CHUSHKA.Web.ViewModels;
-using System.Threading.Tasks;
-using CHUSHKA.Data;
-using CHUSHKA.Models;
-using Microsoft.AspNetCore.Identity;
-
-namespace CHUSHKA.Web.Components
+﻿namespace CHUSHKA.Web.Components
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using Microsoft.AspNetCore.Mvc;
+    
+    using System.Threading.Tasks;
+    using Data;
+    using ViewModels;
+
     [ViewComponent(Name = "action")]
     public class DynamicActionViewComponent : ViewComponent
     {

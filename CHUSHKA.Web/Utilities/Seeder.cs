@@ -1,19 +1,20 @@
-﻿using System;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace CHUSHKA.Web.Utilities
+﻿namespace CHUSHKA.Web.Utilities
 {
+    using System;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.Extensions.DependencyInjection;
+
     public static class Seeder
     {
         public static void Seed(IServiceProvider provider)
         {
             var roleManager = provider.GetService<RoleManager<IdentityRole>>();
+
             var adminRoleExists = roleManager.RoleExistsAsync("Administrator").Result;
 
             if (!adminRoleExists)
             {
-                roleManager.CreateAsync(new IdentityRole("Administrator"));
+               roleManager.CreateAsync(new IdentityRole("Administrator"));
             }
 
             var userRoleExists = roleManager.RoleExistsAsync("User").Result;

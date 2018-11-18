@@ -1,24 +1,25 @@
-﻿using CHUSHKA.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Logging;
-
+﻿//Not used!
 namespace CHUSHKA.Web.ViewModels
 {
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.Extensions.Logging;
+
+    using Models;
+
     public class LogoutViewModel
     {
-        private readonly SignInManager<ChushkaUser> _signInManager;
-        private readonly ILogger<LogoutViewModel> _logger;
-
-        public LogoutViewModel(SignInManager<ChushkaUser> signInManager, ILogger<LogoutViewModel> logger)
+        public LogoutViewModel(SignInManager<ChushkaUser> signInManager, ILogger<ChushkaUser> logger)
         {
-            _signInManager = signInManager;
-            _logger = logger;
+            SignInManager = signInManager;
+            Logger = logger;
         }
+
+        public SignInManager<ChushkaUser> SignInManager { get; }
+
+        public ILogger<ChushkaUser> Logger { get; }
 
         public void OnGet()
         {
         }
-
-        
     }
 }

@@ -68,7 +68,7 @@ using CHUSHKA.Web.Services;
             WriteLiteral("<main>\r\n<div class=\"jumbotron mt-3 chushka-bg-color\">\r\n    <h1>Welcome to Chushka Universal Web Shop</h1>\r\n    <hr class=\"bg-white\" />\r\n    <h3>");
             EndContext();
             BeginContext(187, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d2f543394034cf7b75303fa36b67f91", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c6bb76d9dc044a789bd4ad341519f37", async() => {
                 BeginContext(256, 5, true);
                 WriteLiteral("Login");
                 EndContext();
@@ -93,7 +93,7 @@ using CHUSHKA.Web.Services;
             WriteLiteral(" if you have an account.</h3>\r\n    <h3>");
             EndContext();
             BeginContext(304, 84, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d638869898cb449bb825a399e3846814", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "136504f2d507433aba75889feb5c38bf", async() => {
                 BeginContext(376, 8, true);
                 WriteLiteral("Register");
                 EndContext();

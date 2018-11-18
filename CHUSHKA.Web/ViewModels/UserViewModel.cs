@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
-using CHUSHKA.Models;
-using Microsoft.AspNetCore.Identity;
-
-namespace CHUSHKA.Web.ViewModels
+﻿namespace CHUSHKA.Web.ViewModels
 {
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.Identity;
+
+    using Models;
+
     public class UserViewModel
     {
         public string Id { get; set; }

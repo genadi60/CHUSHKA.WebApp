@@ -1,7 +1,7 @@
-﻿using CHUSHKA.Models.Enums;
-
-namespace CHUSHKA.Models
+﻿namespace CHUSHKA.Models
 {
+    using Enums;
+
     public class Product
     {
         public int Id { get; set; }
@@ -12,6 +12,6 @@ namespace CHUSHKA.Models
 
         public string Description { get; set; }
 
-        public ProductType Type { get; set; }
+        public virtual ProductType Type { get; set; }
     }
 }

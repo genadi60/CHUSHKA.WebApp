@@ -1,9 +1,10 @@
-﻿using CHUSHKA.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-
-namespace CHUSHKA.Data
+﻿namespace CHUSHKA.Data
 {
+    using Models;
+
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
+
     public class ChushkaDbContext : IdentityDbContext<ChushkaUser>
     {
         public ChushkaDbContext()

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CHUSHKA.Models
+﻿namespace CHUSHKA.Models
 {
+    using System;
+
     public class Order
     {
         public int Id { get; set; }

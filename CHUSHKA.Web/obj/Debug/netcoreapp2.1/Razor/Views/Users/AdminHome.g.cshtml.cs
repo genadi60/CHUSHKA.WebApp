@@ -127,7 +127,7 @@ WriteAttributeValue(" ", 620, ViewBag.Tag, 621, 12, false);
             WriteLiteral("                            ");
             EndContext();
             BeginContext(1173, 721, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3ec81d4722a34e8dba2e47fa3e8027c8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "264d838a2b874ffda383c164e1c131d5", async() => {
                 BeginContext(1274, 181, true);
                 WriteLiteral("\r\n                                <div class=\"product p-1 chushka-bg-color rounded-top rounded-bottom\">\r\n                                    <h5 class=\"text-center text-white mt-3\">");
                 EndContext();
@@ -235,7 +235,7 @@ WriteAttributeValue(" ", 620, ViewBag.Tag, 621, 12, false);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(2608, 676, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "407881779fed43a0b57ee27f3d54f965", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "97559d814d5d41f3812bd53deecd14af", async() => {
                 BeginContext(2709, 162, true);
                 WriteLiteral("\r\n                            <div class=\"product p-1 chushka-bg-color rounded-top rounded-bottom\">\r\n                                <h5 class=\"text-center mt-3\">");
                 EndContext();

@@ -1,21 +1,22 @@
-﻿using System;
-using CHUSHKA.Data;
-using CHUSHKA.Models;
-using CHUSHKA.Web.Services;
-using CHUSHKA.Web.Services.Contracts;
-using CHUSHKA.Web.Utilities;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace CHUSHKA.Web
+﻿namespace CHUSHKA.Web
 {
+    using System;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+
+    using Data;
+    using Models;
+    using Services;
+    using Services.Contracts;
+    using Utilities;
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
